@@ -1,0 +1,186 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  background-color: rgb(55, 55, 56);
+}
+.line {
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  height: 6%;
+  border-top: 1px solid #ffffff52;
+  border-bottom: 1px solid #ffffff52;
+  bottom: 30%;
+  background-color: rgba(0, 0, 0, 0.062);
+}
+.line:hover {
+  background-color: rgba(0, 0, 0, 0.171);
+  cursor: pointer;
+}
+.line h5 {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  color: rgba(255, 255, 255, 0.548);
+  font-weight: lighter;
+  letter-spacing: 5px;
+  font-size: 10px;
+}
+.line h5:hover {
+  letter-spacing: 10px;
+}
+#one {
+  left: 2%;
+}
+#two {
+  right: 2%;
+}
+#left {
+  width: 30%;
+  position: relative;
+}
+.head {
+  z-index: 1;
+  position: absolute;
+  font-size: 70px;
+  left: 40%;
+  top: 10%;
+  color: transparent;
+  -webkit-text-stroke: 4px white;
+  font-family: "Hursheys";
+}
+.head h1 {
+  font-weight: lighter;
+  letter-spacing: 10px;
+}
+.ellen:hover,
+.sweden:hover {
+  color: rgba(245, 195, 151, 0.795);
+  cursor: default;
+}
+#name {
+  position: absolute;
+  left: 10%;
+  bottom: 5%;
+}
+#name:hover{
+  cursor: no-drop;
+}
+#name h4{
+  font-size: 50px;
+  font-family: "blackchancery";
+  -webkit-text-stroke: 1.5px bisque;
+  color: transparent;
+  font-weight: lighter;
+}
+#center {
+  width: 50%;
+  background-image: url(https://images.unsplash.com/photo-1596944924591-1e64760c2be8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
+  background-image: url(https://images.unsplash.com/photo-1596944946054-85fae2e50d5e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8ZWxlZ2FudHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+#circle {
+  border: 1px solid rgba(0, 0, 0, 0.308);
+  border-radius: 50%;
+  height: 130px;
+  width: 130px;
+  position: absolute;
+  top: 44%;
+  left: 81%;
+  background-color: rgba(0, 0, 0, 0.055);
+}
+#circle:hover {
+  background-color: rgba(0, 0, 0, 0.205);
+  cursor: pointer;
+}
+#circle h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 15px;
+  font-family: "gilroy";
+  letter-spacing: 10px;
+  color: rgba(0, 0, 0, 0.507);
+}
+#style {
+  position: absolute;
+  bottom: 10%;
+  left: 8%;
+}
+#style h1 {
+  position: absolute;
+  top: -60%;
+  left: -30%;
+  font-size: 100px;
+  color: white;
+  -webkit-text-stroke: 2px rgb(55, 55, 56);
+}
+#style h3 {
+  font-size: 40px;
+  font-family: "mochiy pop p one";
+  font-weight: lighter ;
+  color: white;
+}
+#style h3:hover {
+  -webkit-text-stroke: 2px rgb(55, 55, 56);
+  cursor: pointer;
+}
+#right {
+  width: 20%;
+  background-image: url(https://images.unsplash.com/photo-1596944946054-85fae2e50d5e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8ZWxlZ2FudHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+  
+}
+#rightt{
+  height: 80%;
+  width: 100%;
+  background-image: url(https://images.unsplash.com/photo-1596944924591-1e64760c2be8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
+}
+#menu{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: rgba(0, 0, 0, 0.055);
+  padding: 0px 30px 0px 30px;
+  font-size: 30px;
+  font-weight: bolder;
+  color: rgba(0, 0, 0, 0.486);
+}
+#menu:hover{
+  background-color: rgba(0, 0, 0, 0.274);
+  cursor: pointer;
+}
+.contact {
+  position: relative;
+  width: 100%;
+  height: 20%;
+  background-color: rgba(247, 217, 186, 0.521);
+  font-size: 30px;
+}
+.contact:hover {
+  background-color: rgba(55, 55, 56, 0.76);
+  color: white;
+  cursor: pointer;
+}
+.contact h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Hursheys";
+  font-weight: lighter;
+  letter-spacing: 10px;
+}
